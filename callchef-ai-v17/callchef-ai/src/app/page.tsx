@@ -96,10 +96,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {[
-              { name: "MARIE", restaurant: "Chez Marcel", image: "👩‍🍳", accent: "bg-orange-500" },
-              { name: "ANTOINE", restaurant: "Pizzeria Antonio", image: "👨‍🍳", accent: "bg-pink-500" },
-              { name: "SOPHIE", restaurant: "Bistrot Sophie", image: "👩‍💼", accent: "bg-purple-500" },
-              { name: "JULIEN", restaurant: "Le Gourmet", image: "👨‍💼", accent: "bg-indigo-500" }
+              { name: "MARIE", restaurant: "Chez Marcel", image: "👩‍🍳", accent: "bg-orange-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" },
+              { name: "ANTOINE", restaurant: "Pizzeria Antonio", image: "👨‍🍳", accent: "bg-pink-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" },
+              { name: "SOPHIE", restaurant: "Bistrot Sophie", image: "👩‍💼", accent: "bg-purple-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" },
+              { name: "JULIEN", restaurant: "Le Gourmet", image: "👨‍💼", accent: "bg-indigo-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" }
             ].map((assistant) => (
               <Card key={assistant.name} className="bg-white shadow-lg hover:shadow-xl transition-shadow hover-lift animate-float">
                 <CardHeader className="text-center">
@@ -111,8 +111,10 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <Button className={`w-full ${assistant.accent} text-white hover:opacity-90`}>
+                    <a href=assistant.link>
                     <Zap className="w-4 h-4 mr-2" />
                     ÉCOUTER
+                    </a>
                   </Button>
                 </CardContent>
               </Card>
