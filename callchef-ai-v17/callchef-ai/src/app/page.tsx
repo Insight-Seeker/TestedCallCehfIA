@@ -111,7 +111,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <Button className={`w-full ${assistant.accent} text-white hover:opacity-90`}>
-                    <a href=assistant.link>
+                    <a href={assistant.link}>
                     <Zap className="w-4 h-4 mr-2" />
                     ÉCOUTER
                     </a>
