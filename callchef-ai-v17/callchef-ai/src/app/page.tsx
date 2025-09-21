@@ -96,7 +96,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {[
-              { name: "MARIE", restaurant: "Chez Marcel", image: "👩‍🍳", accent: "bg-orange-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" },
+              { name: "MARIE", restaurant: "Chez Marcel", image: "👩‍🍳", accent: "bg-orange-500", link: "https://elevenlabs.io/app/talk-to?agent_id=agent_8601k5p8hk71ersbfzjjvcdgcqpc" },
               { name: "ANTOINE", restaurant: "Pizzeria Antonio", image: "👨‍🍳", accent: "bg-pink-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" },
               { name: "SOPHIE", restaurant: "Bistrot Sophie", image: "👩‍💼", accent: "bg-purple-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" },
               { name: "JULIEN", restaurant: "Le Gourmet", image: "👨‍💼", accent: "bg-indigo-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" }
