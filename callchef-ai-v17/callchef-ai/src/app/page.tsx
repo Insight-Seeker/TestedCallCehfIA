@@ -396,6 +396,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+        <elevenlabs-convai agent-id="agent_01jxx54qcrfb8s1z0r6vs5mrg6"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
       </section>
 
       {/* Footer */}
