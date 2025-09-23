@@ -175,7 +175,7 @@ export default function Home() {
               SERVICES
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Fonctionnalités produit et <span className="gradient-text">fonctionnalités</span>
+              Fonctionnalités <span className="gradient-text">CallChef.ai</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Solutions complètes adaptées à vos besoins.
@@ -185,33 +185,36 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow p-6 hover-lift animate-fade-in-up">
               <div className="text-5xl mb-4 animate-bounce-gentle">🛒</div>
-              <CardTitle className="text-xl mb-3">Compatibilité commandes à emporter</CardTitle>
+              <CardTitle className="text-xl mb-3">Décroche & prend les commandes (24/7)</CardTitle>
               <CardContent className="p-0">
                 <p className="text-gray-600">
-                  Gère efficacement les commandes à emporter et en livraison, fournissant des liens SMS en temps réel
-                  pour une commande fluide et réduisant le temps de traitement des appels pour le personnel.
+                  Votre ligne n’est plus jamais occupée : l’IA répond immédiatement, 
+                  comprend la demande, lit votre menu, propose les options (tailles, suppléments), 
+                  vérifie l’adresse et confirme la commande (à emporter ou livraison). Un récap est envoyé par SMS.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow p-6 hover-lift animate-fade-in-up" style={{animationDelay: '0.2s'}}>
               <div className="text-5xl mb-4 animate-bounce-gentle">📅</div>
-              <CardTitle className="text-xl mb-3">Compatibilité système de réservation</CardTitle>
+              <CardTitle className="text-xl mb-3">Réservations & file d’attente</CardTitle>
               <CardContent className="p-0">
                 <p className="text-gray-600">
-                  S'intègre parfaitement à votre système de réservation existant, garantissant un processus
-                  de réservation fluide pour vos clients sans interruptions.
+                  Création, modification et annulation de réservations par téléphone, 
+                  avec SMS de confirmation et rappels automatiques pour limiter les no-shows. 
+                  Gestion simple des tables et du surbooking selon vos horaires et votre capacité.
                 </p>
               </CardContent>
             </Card>
 
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow p-6 hover-lift animate-fade-in-up" style={{animationDelay: '0.4s'}}>
               <div className="text-5xl mb-4 animate-bounce-gentle">🤖</div>
-              <CardTitle className="text-xl mb-3">Profil d'hôte personnalisé</CardTitle>
+              <CardTitle className="text-xl mb-3">Connexion cuisine & paiement</CardTitle>
               <CardContent className="p-0">
                 <p className="text-gray-600">
-                  Personnalisez son ton, ses réponses et sa personnalité pour assurer des interactions client fluides,
-                  prenant réservations et commandes comme le ferait votre meilleur membre du personnel.
+                  Envoi direct des commandes en cuisine (POS/KDS, email ou impression). 
+                  Lien de paiement sécurisé par SMS pour encaisser à l’avance et réduire les impayés. 
+                  Filtrage du démarchage, transfert vers un humain si besoin, et tableau de bord (appels, conversion, panier moyen).
                 </p>
               </CardContent>
             </Card>
