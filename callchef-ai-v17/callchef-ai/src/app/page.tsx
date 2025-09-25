@@ -15,13 +15,11 @@ export default function Home() {
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl"> 
                 <img
                   src="/logo-callchef.svg"
                   alt="CallChef.ai Logo"
                   className="w-8 h-8"
                 />
-              </span>
             </div>
             <span className="text-2xl font-bold text-gray-900">CallChef.ai</span>
           </div>
