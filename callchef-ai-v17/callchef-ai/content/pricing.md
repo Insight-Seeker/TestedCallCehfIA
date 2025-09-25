@@ -4,7 +4,7 @@ section_subtitle: "Peu importe le type ou la taille de votre restaurant, il y a 
 plans:
   - name: "Plan Standard"
     description: "Idéal pour débuter"
-    price: "29€"
+    price: "149€"
     period: "/mois"
     sub_price: "par établissement"
     features:
@@ -16,7 +16,7 @@ plans:
     highlighted: false
   - name: "Plan Exécutif"
     description: "Pour restaurants actifs"
-    price: "79€"
+    price: "299€"
     period: "/mois"
     sub_price: "par établissement"
     badge: "MEILLEURE VALEUR"
