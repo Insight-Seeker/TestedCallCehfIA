@@ -14,7 +14,7 @@ export default function Home() {
       <header className="container mx-auto px-4 py-6 bg-white">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center">
+            <div className="w-12 h-12 bg-gradient-to-br from-white-400 to-white-600 rounded-full flex items-center justify-center">
                 <img
                   src="/logo-callchef.svg"
                   alt="CallChef.ai Logo"
@@ -100,9 +100,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {[
               { name: "MARIE", restaurant: "Chez Marcel", image: "👩‍🍳", accent: "bg-orange-500", link: "https://elevenlabs.io/app/talk-to?agent_id=agent_8601k5p8hk71ersbfzjjvcdgcqpc" },
-              { name: "ANTOINE", restaurant: "Pizzeria Antonio", image: "👨‍🍳", accent: "bg-pink-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" },
-              { name: "SOPHIE", restaurant: "Bistrot Sophie", image: "👩‍💼", accent: "bg-purple-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" },
-              { name: "JULIEN", restaurant: "Le Gourmet", image: "👨‍💼", accent: "bg-indigo-500", link: "https://elevenlabs.io/app/studio/etFrp9xRkyoUnyRZKZSF" }
+              { name: "ANTOINE", restaurant: "Pizzeria Antonio", image: "👨‍🍳", accent: "bg-pink-500", link: "https://elevenlabs.io/app/talk-to?agent_id=agent_7401k61kje7rfcarxsdejsfdm19w" },
+              { name: "SOPHIE", restaurant: "Bistrot Sophie", image: "👩‍💼", accent: "bg-purple-500", link: "https://elevenlabs.io/app/talk-to?agent_id=agent_4201k61kqse6ek1sytva6m2szk76" },
+              { name: "JULIEN", restaurant: "Le Gourmet", image: "👨‍💼", accent: "bg-indigo-500", link: "https://elevenlabs.io/app/talk-to?agent_id=agent_4801k61mh87xef5t3vef5d14zbdc" }
             ].map((assistant) => (
               <Card key={assistant.name} className="bg-white shadow-lg hover:shadow-xl transition-shadow hover-lift animate-float">
                 <CardHeader className="text-center">
