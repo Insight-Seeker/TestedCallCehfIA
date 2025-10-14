@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-br from-white-400 to-white-600 rounded-full flex items-center justify-center">
                 <img
-                  src="/logo-callchef.svg"
+                  src="/ChatGPT_Image_8_août_2025,_19_02_28.png"
                   alt="CallChef.ai Logo"
                   className="w-8 h-8"
                 />
@@ -414,7 +414,7 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <img
-                  src="/logo-callchef.svg"
+                  src="//ChatGPT_Image_8_août_2025,_19_02_28.png"
                   alt="CallChef.ai Logo"
                   className="w-8 h-8"
                 />
